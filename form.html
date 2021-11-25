@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Shopz1 Registration Form</h1>
+      <form action="/Form_action.php">
+          <fieldset>
+              <legend>Personal Details</legend>
+              <label for="fname">First Name</label>
+              <input type="text" name="fname" id="fname">
+              <label for="lname">Last Name</label>
+              <input type="text" name="lname" id="lname"><br>
+              <p>Gender !</p>
+              <label for="gf">Female</label>
+              <input type="radio" name="gender" id="gf" value="femaile">
+              <label for="gm">Male</label>
+              <input type="radio" name="gender" id="gm" >
+              <p>DOB<input type="date" name="dob" id="dob"></p>
+              <label for="mobnum">Mob Number</label>
+              <input type="number" name="mobnum" id="mobnum">
+              <label for="email">Email</label>
+              <input type="email" name="email" id="email"><br>
+              <label for="village">village</label>
+              <input type="text" name="village" id="village">
+              <label for="city">City</label>
+              <input type="text" name="city" id="city"><br>
+              <label for="d">Pincode</label>
+              <input type="text" name="pincode" id="d">     
+              <label for="prof">Choose Professions</label>
+              <select name="prof" id="prof">
+                  <option value="null">Choose</option>
+                  <option value="farmer">Farmer</option>
+                  <option value="labour">labour</option>
+                  <option value="employe">employe</option>
+                  <option value="businessman">businessman</option>
+              </select>  
+          </fieldset>
+          <fieldset>
+            <legend>Refferal Informtion</legend>
+            <label for="sponser">Sponser Name</label>
+            <input type="text" name="sponser" id="sponser"><br>
+            <label for="sid">Sponser Id</label>
+            <input type="number" name="sid" id="sid">
+          </fieldset>
+          <fieldset>
+              <legend>Bank Account details</legend>
+              <caption>fill this detail correctly you will recive commission on Account.</caption><br>
+              <label for="ac/no">Ac/NO.</label>  
+             <input type="text" name="ac/no" id="ac/no">
+             <label for="ac/nm">Ac/Name.</label>  
+             <input type="text" name="ac/no" id="ac/nm"><br>
+             <label for="bank">Choose Bank</label>
+              <select name="bank" id="bank">
+                <option value="emty">Choose--</option>
+                <option value="sbi">SBI</option>
+                <option value="boi">BOI</option>
+                <option value="hdfc">HDFC</option>
+                <option value="dhani">Dhani</option>
+              </select>
+              <label for="branch">Branch Code</label>
+              <input type="number" name="branch" id="branch"><br>
+              <label for="ifsc">IFSC Code</label>
+              <input type="number" name="ifsc" id="ifsc">
+         </fieldset>
+         <fieldset>
+             <legend>Document Details</legend>
+             <P>Upload Aadhar <input type="file" name="aadhar" id="aadhar"></P>
+             <P>Upload PAN <input type="file" name="pan" id="pan"></P>
+             <P>Upload Signature<input type="file" name="sign" id="sign"></P>
+         </fieldset>
+          <fieldset>
+              <legend>Terms & Condition</legend>
+              <p>Information fill is correct<input type="checkbox" name="infofill" id="infofill"></p>
+              <p>I Accept all the terms & Condition<input type="checkbox" name="infofill" id="infofill"></p>
+              <p>Subit All the Information <input type="submit" value="Register"></p>
+          </fieldset>
+
+
+      </form>
+
+
+
+</body>
+</html>
