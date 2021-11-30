@@ -1,0 +1,117 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    background-color: lightgray;
+    box-sizing: border-box;
+}
+header {
+    position: relative;
+    margin: 0px;
+    text-align: center;
+    padding: 30px; 
+    background-color: rgb(135, 228, 228);  
+}
+nav {
+    margin: 0px;
+    margin-left: 0px;
+    background-color: white;
+    border: 2px solid whitesmoke;
+    overflow: hidden;
+    padding: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    padding: 10px;
+    margin-left: 0px;
+}
+nav a:hover {
+    color: white;
+    background-color: black;
+}
+main {
+    background-color: whitesmoke;
+    margin-top: 15px;
+}
+.course, .review, .notes, .Founder{
+    background-color: white;
+    margin-top: 1%;
+    border: whitesmoke solid 1px;
+}
+section h1 {
+    margin-top: 0px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 2em;
+}
+.cvideo {
+    margin: auto;
+    width: 80%;
+}
+.cvideo h2 {
+    background-color: lightgray;
+    font-size: 1em;
+    height: 8em;
+    text-align: center;
+    width: 28%;
+    float: left;
+    margin: 15px;
+}
+.course::after {
+    content: "";
+    display: table;
+    clear: both;
+
+}
+.cvideo {
+    margin: auto;
+    width: 90%;
+}
+iframe {
+    margin: 1%;
+}
+.Founder img {
+    display: block;
+    margin: auto;
+    margin-top: 5%; 
+    border-radius: 25%;  
+}
+.Founder h2{
+    text-align: center;
+    margin: 0px;
+    margin-top: 0.8%;
+    font-size: 1.1em;
+}
+.Founder h3,h4 {
+    text-align: center;
+    margin: 4% 10%;
+}
+.Founder span {
+    margin: auto;
+    display: block;
+    width: 10%;
+}
+.Founder a {
+    text-decoration: none;
+    color: blue;
+    text-align: center;
+}
+footer {
+    margin: 0px;
+    margin-left: 0px;
+    background-color: rgb(70, 69, 69);
+    border: 2px solid whitesmoke;
+    overflow: hidden;
+    padding: 10px;
+}
+footer a {
+    text-decoration: none;
+    color: white;
+    font-weight: lighter;
+    padding: 10px;
+    margin-left: 0px;
+}
